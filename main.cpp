@@ -218,15 +218,48 @@ cin >> first >> second;
 
     */
 
+
+    /*
+    //problem 12
     int angle1, angle2, angle3;
 cout << "Enter 3 angles of a triangle: ";
     cin >> angle1 >> angle2 >> angle3;
-    if (angle1 + angle2 + angle3 == 180) {
+    if (angle1 + angle2 > angle3 && angle1 + angle3 > angle2 && angle2 + angle3 > angle1 && angle1 - angle2 < angle3 && angle3 - angle2 < angle1 && angle1 - angle3 < angle2) {
         cout << "Triangle is valid" << endl;
     }
     else {
         cout << "Triangle is not valid" << endl;
     }
+
+    */
+
+
+
+    /*
+//problem 13
+     char value;
+    cout << "Enter a character: ";
+    cin >> value;
+    if (std::isalpha(value)) {
+        if (std::isupper(value)) {
+            cout<<"Uppercase alphabet"<<endl;
+        }
+        else {
+            cout<<"Lowercase alphabet"<<endl;
+        }
+    }
+    else {
+        cout<<"Is not an alphabet"<<endl;
+    }
+
+
+    */
+
+    double weight1, price1, weight2, price2;
+    cout << "Please enter your weight and price of product 1: ";
+    cin >> weight1 >> price1;
+    cout << "Please enter your weight and price of product 2: ";
+    cin >> weight2 >> price2;
     return 0;
 
 }
