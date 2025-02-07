@@ -255,11 +255,27 @@ cout << "Enter 3 angles of a triangle: ";
 
     */
 
-    double weight1, price1, weight2, price2;
+    /*
+    //problem 14
+    double weight1, price1, weight2, price2, value1, value2;
     cout << "Please enter your weight and price of product 1: ";
     cin >> weight1 >> price1;
     cout << "Please enter your weight and price of product 2: ";
     cin >> weight2 >> price2;
+    value1 = weight1 / price1;
+    value2 = weight2 / price2;
+    if (value1 > value2) {
+        cout<<"Package 1 has better price"<<endl;
+    }
+    else if (value1 != value2) {
+        cout<<"Package 2 has better price"<<endl;
+    }
+    else {
+        cout<<"Two packages have the same price"<<endl;
+    }
+
+    */
+
     return 0;
 
 }
